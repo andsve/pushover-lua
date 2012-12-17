@@ -9,9 +9,9 @@ Usage
 require("pushover")
 
 -- setup the three required fields of the request table:
-local request = { token     = "", -- your application's API token
-                  user      = "", -- the user key (not e-mail address) of your user (or you), viewable when logged into the dashboard
-                  message   = "Hello World!" -- your message
+local request = { token   = "APP_TOKEN",   -- your application's API token
+                  user    = "USER_KEY",    -- the user key of your user, viewable when logged into the dashboard
+                  message = "Hello World!" -- your message
                 }
 
 -- Some optional parameters may be included: device, title, url, url_title, priority, timestamp, sound
