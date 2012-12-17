@@ -1,7 +1,7 @@
 pushover-lua
 ============
 
-Simple Pushover (https://pushover.net) API wrapper in Lua.
+Simple Pushover (https://pushover.net) API wrapper/snippet in Lua.
 
 Usage
 =====
@@ -31,5 +31,10 @@ end
 
 Dependencies
 ============
-* LuaSocket
-* luasec ( https://github.com/brunoos/luasec/ )
+* LuaSocket - http://w3.impa.br/~diego/software/luasocket/
+* luasec - https://github.com/brunoos/luasec/
+
+License
+=======
+Public domain, use anyway you want.
+
